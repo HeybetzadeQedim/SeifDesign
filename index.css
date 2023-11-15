@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main-container ul {
+  padding: 21px 710px 21px 30px;
+  background-color: #7743db;
+  display: flex;
+}
+.main-container ul h1 {
+  margin-right: 200px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.main-container ul li {
+  list-style-type: none;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.li-1 {
+  margin-left: 73px;
+  margin-right: 73px;
+}
+.image-1 {
+  display: none;
+}
+.flex-container {
+  padding: 147px 157px 43px 117px;
+  background-color: #dfdfdf;
+  min-height: 100vh;
+}
+.flex-box {
+  display: flex;
+}
+.left-container h2 {
+  width: 608px;
+  font-family: Poppins;
+  font-size: 68px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 109%;
+  background: linear-gradient(268deg, #7743DB 46.2%, #5725E5 59.09%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.left-container p {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 608px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 109%;
+}
+.left-container button {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109%; 
+  display: flex;
+  width: 170px;
+  height: 50px;
+  padding: 0px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: linear-gradient(263deg, #7743DB 38.81%, #5725E5 70.24%);
+}
+.box-container {
+  margin-top: 96px;
+  margin-left: 186px;
+  display: flex;
+}
+.box-1 {
+  margin-right: 64px;
+  padding: 10px;
+  width: 178px;
+  height: 199px;
+  display: flex;
+  border-radius: 25px;
+  background: #5725E5;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  flex-shrink: 0;
+}
+.main-container .flex-container .box-container img:first-child {
+  width: 140px;
+  height: 70px;
+}
+.main-container .flex-container .box-container img:nth-child(2) {
+  width: 72px;
+  height: 86px;
+}
+.main-container .flex-container .box-container img:nth-child(3) {
+  width: 64px;
+  height: 86px;
+}
+.main-container .flex-container .box-container img:nth-child(4) {
+  width: 90px;
+  height: 86px;
+}
+.box-container p {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 109%;
+}
+.box-2 {
+  margin-right: 64px;
+  padding: 10px;
+  width: 178px;
+  height: 199px;
+  display: flex;
+  border-radius: 25px;
+  background: #7743DB;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+  flex-shrink: 0;
+}
+/* mobile style */
+@media screen and (max-width: 768px) {
+  /* .main-container {
+    flex-wrap: wrap;
+  } */
+  .main-container ul {
+    padding: 21px 20px 21px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-container h1 {
+    font-size: 18px;
+  }
+  .main-container ul li {
+    display: none;
+  }
+  .flex-container {
+    padding: 111px 25px 43px 24px;
+  }
+  .image-1 {
+    display: block;
+  }
+  .flex-box {
+    flex-direction: column;
+  }
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box-container-2 {
+    display: flex;
+  }
+  .box-container-3 {
+    display: flex;
+  }
+  .left-container{
+    margin-left: 180px;
+    margin-bottom: 47px;
+  }
+  .left-container h2 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 109%;
+    width: 390px;
+  }
+  .left-container p {
+    margin-left: 50px;
+    font-size: 20px;
+    width: 332px;
+  }
+  .left-container button {
+    margin-left: 100px;
+  }
+  .right-container {
+    margin-bottom: 40px;
+  }
+}
